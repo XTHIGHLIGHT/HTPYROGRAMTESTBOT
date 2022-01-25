@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 
 Highlight=Client(
     "Pyrogram bot",
-    bot_token="5160356023:AAH_35hFryrGKFi_HCyLuJtFr0bf0zVxG1k",
+    bot_token="5168351626:AAFFXbP3s514IKZ8qcE6qXFOqmxCXGAb0BM",
     api_id="17827478",
     api_hash="22a35b5545535be40a1efae412b1b6b8"
 )
