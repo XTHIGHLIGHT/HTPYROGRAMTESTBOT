@@ -1,6 +1,6 @@
-from pyrogram import client, filters
+from pyrogram import Client, filters
 
-Highlight=client(
+Highlight=Client(
     "Pyrogram bot",
     bot_token="5160356023:AAH_35hFryrGKFi_HCyLuJtFr0bf0zVxG1k",
     api_id="17827478",
