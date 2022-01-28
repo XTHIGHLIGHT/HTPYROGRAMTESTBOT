@@ -11,7 +11,7 @@ Highlight=Client(
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
     await message.reply_text(
-        text="❇️JOIN OUR CHANNELS AND GROUP❇️",
+        text="♻️JOIN FOR MOVIES♻️",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton ("✳️MAIN CHANNEL✳️", url="https://t.me/+RoU6VdIQ719iMDVl"),
             InlineKeyboardButton ("✳️CHANNEL 2.0✳️", url="https://t.me/+gDbr4bXrylZjNjJl")
