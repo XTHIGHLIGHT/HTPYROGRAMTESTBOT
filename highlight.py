@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 Highlight=Client(
     "Pyrogram bot",
@@ -10,7 +10,7 @@ Highlight=Client(
 
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_text("Hi🖐️ I am Highlight and I am trying to become a developer with Motech")
+    await message.reply_text("Hi👋 I am Highlight and I am trying to become a developer with Motech")
 
 
 @Highlight.on_message(filters.command("help")) 
