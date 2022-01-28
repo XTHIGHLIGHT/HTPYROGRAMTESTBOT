@@ -1,4 +1,5 @@
 from pyrogram import Client, filters
+from pyrogram.types import Message
 
 Highlight=Client(
     "Pyrogram bot",
@@ -10,6 +11,11 @@ Highlight=Client(
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
     await message.reply_text("Hi I am Adrin and I am trying to become a developer with Motech")
+
+
+@Highlight.on_message(filters.command("help")) 
+async def help(bot: Highlight, message: Message):
+    await message.reply_text("CONTACT:@iamAdrin")
 
 
 Highlight.run()
