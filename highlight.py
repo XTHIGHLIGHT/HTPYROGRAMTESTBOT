@@ -11,10 +11,12 @@ Highlight=Client(
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
     await message.reply_text(
-        text="❇️JOIN OUR CHANNELS❇️",
+        text="❇️CHANNELS❇️",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton ("MAIN CHANNEL", url="https://t.me/+RoU6VdIQ719iMDVl"),
             InlineKeyboardButton ("CHANNEL 2.0", url="https://t.me/+gDbr4bXrylZjNjJl")
+            ],[
+            InlineKeyboardButton ("GROUP", url="https://t.me/+82wh0nsgECRhODM1")
             ]]
             )
         )
