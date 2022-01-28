@@ -10,7 +10,18 @@ Highlight=Client(
 
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_text("Hi👋 I am Highlight and I am trying to become a developer with Motech")
+    await message.reply_text(
+        text="Enter your text here",
+        reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton ("CHANNEL", url="https://t.me/+RoU6VdIQ719iMDVl")
+            ]]
+            )
+        )
+    
+   
+        
+        
+        
 
 
 @Highlight.on_message(filters.command("help")) 
