@@ -13,7 +13,8 @@ async def start_message(bot, message):
     await message.reply_text(
         text="Enter your text here",
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton ("CHANNEL", url="https://t.me/+RoU6VdIQ719iMDVl")
+            InlineKeyboardButton ("CHANNEL", url="https://t.me/+RoU6VdIQ719iMDVl"),
+            InlineKeyboardButton ("GROUP", url="https://t.me/+82wh0nsgECRhODM1")
             ]]
             )
         )
