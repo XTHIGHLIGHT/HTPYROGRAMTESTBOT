@@ -10,8 +10,9 @@ Highlight=Client(
 
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
-    await message.reply_text(
-        text="♻️JOIN FOR MOVIES♻️",
+    await message.reply_photo(
+        photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
+        caption="♻️JOIN TO GET LATEST MOVIES♻️",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton ("✳️MAIN CHANNEL✳️", url="https://t.me/+RoU6VdIQ719iMDVl"),
             InlineKeyboardButton ("✳️CHANNEL 2.0✳️", url="https://t.me/+gDbr4bXrylZjNjJl")
