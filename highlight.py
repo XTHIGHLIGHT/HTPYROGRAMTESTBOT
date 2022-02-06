@@ -21,7 +21,7 @@ async def start_message(bot, message):
             InlineKeyboardButton ("MMOFCGROUP", url="https://t.me/MMofcgroup")
             ],[
             InlineKeyboardButton ("DEV🧑‍💻", url="https://t.me/iTOMMYSHELBY"),
-            InlineKeyboardButton ("Repository🤖", url="https://t.me/iTOMMYSHELBY")
+            InlineKeyboardButton ("Repository🤖", url="https://github.com/XTHIGHLIGHT")
             ]]
             )
         )
@@ -30,8 +30,6 @@ async def start_message(bot, message):
         
         
         
-
-
 @Highlight.on_message(filters.command("help")) 
 async def help(bot: Highlight, message: Message):
     await message.reply_text("https://youtu.be/Af055Eozk9s")
