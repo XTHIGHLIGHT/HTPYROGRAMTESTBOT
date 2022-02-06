@@ -12,7 +12,6 @@ Highlight=Client(
 async def start_message(bot, message):
     await message.reply_photo(
         photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
-        caption="⭕JOIN TO GET LATEST MOVIES⭕",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton ("MYTHRI MOVIES", url="https://t.me/MythriMovies"),
             InlineKeyboardButton ("MM LINKZ", url="https://t.me/MMlinkz")
