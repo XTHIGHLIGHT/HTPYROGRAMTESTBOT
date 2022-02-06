@@ -12,13 +12,14 @@ Highlight=Client(
 async def start_message(bot, message):
     await message.reply_photo(
         photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
-        caption="♻️JOIN OUR CHANNELLS TO GET LATEST MOVIES♻️",
+        caption="⭕JOIN TO GET LATEST MOVIES⭕",
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton ("✳️MAIN CHANNEL✳️", url="https://t.me/+RoU6VdIQ719iMDVl"),
-            InlineKeyboardButton ("✳️CHANNEL 2.0✳️", url="https://t.me/+gDbr4bXrylZjNjJl")
+            InlineKeyboardButton ("MYTHRI MOVIES", url="https://t.me/MythriMovies"),
+            InlineKeyboardButton ("MM LINKZ", url="https://t.me/MMlinkz")
             ],[
-            InlineKeyboardButton ("✳️GROUP✳️", url="https://t.me/+82wh0nsgECRhODM1")
-            ]]
+            InlineKeyboardButton ("MMSUPPORTTGROUP", url="https://t.me/MMsupporttgroup"),
+            InlineKeyboardButton ("MMOFCGROUP", url="https://t.me/MMofcgroup")
+            ],[
             )
         )
     
