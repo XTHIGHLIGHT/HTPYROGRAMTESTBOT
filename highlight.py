@@ -22,7 +22,6 @@ async def start_message(bot, message):
             ],[
             InlineKeyboardButton ("DEV", url="@iTOMMYSHELBY"),
             InlineKeyboardButton ("repo", url="@iTOMMYSHELBY")
-            ],[
             ]]
             )
         )
