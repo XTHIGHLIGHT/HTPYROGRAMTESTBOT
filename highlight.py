@@ -19,6 +19,9 @@ async def start_message(bot, message):
             ],[
             InlineKeyboardButton ("MMSUPPORTTGROUP", url="https://t.me/MMsupporttgroup"),
             InlineKeyboardButton ("MMOFCGROUP", url="https://t.me/MMofcgroup")
+            ],[
+            InlineKeyboardButton ("DEV", url="https://t.me/iTOMMYSHELBY"),
+            InlineKeyboardButton ("Repository", url="https://t.me/iTOMMYSHELBY")
             ]]
             )
         )
