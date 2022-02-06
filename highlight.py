@@ -12,7 +12,7 @@ Highlight=Client(
 async def start_message(bot, message):
     await message.reply_photo(
         photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
-        caption="♻️JOIN TO GET LATEST MOVIES♻️",
+        caption="♻️JOIN OUR CHANNELLS TO GET LATEST MOVIES♻️",
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton ("✳️MAIN CHANNEL✳️", url="https://t.me/+RoU6VdIQ719iMDVl"),
             InlineKeyboardButton ("✳️CHANNEL 2.0✳️", url="https://t.me/+gDbr4bXrylZjNjJl")
@@ -30,7 +30,7 @@ async def start_message(bot, message):
 
 @Highlight.on_message(filters.command("help")) 
 async def help(bot: Highlight, message: Message):
-    await message.reply_text("IF YOU WANT TO CREATE BOTS LIKE ME SEE THIS VIDIOE :https://youtu.be/Af055Eozk9s")
+    await message.reply_text("https://youtu.be/Af055Eozk9s")
 
 
 Highlight.run()
