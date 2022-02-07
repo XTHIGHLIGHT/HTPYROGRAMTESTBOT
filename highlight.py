@@ -30,8 +30,14 @@ async def start_message(bot, message):
         
         
 @Highlight.on_message(filters.command("help")) 
-async def help(bot: Highlight, message: Message):
-    await message.reply_text("https://youtu.be/Af055Eozk9s")
+async def start_message(bot, message):
+    await message.reply_photo(
+        photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
+        reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton ("CLICK HERE", url="https://youtu.be/Af055Eozk9s")
+            ]]
+            )
+        )
 
 
 Highlight.run()
