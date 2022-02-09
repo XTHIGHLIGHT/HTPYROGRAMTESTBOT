@@ -8,25 +8,29 @@ Highlight=Client(
     api_hash="22a35b5545535be40a1efae412b1b6b8"
 )
 
+START_MESSAGE = """
+Hello {}
+"""
+
 @Highlight.on_message(filters.command("start")) 
 async def start_message(bot, message):
     await message.reply_photo(
         photo="https://telegra.ph/file/6f014e3d6c8b90cb6d49e.jpg",
-        reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton ("MYTHRI MOVIES", url="https://t.me/MythriMovies"),
-            InlineKeyboardButton ("MM LINKZ", url="https://t.me/MMlinkz")
-            ],[
-            InlineKeyboardButton ("MMSUPPORTTGROUP", url="https://t.me/MMsupporttgroup"),
-            InlineKeyboardButton ("MMOFCGROUP", url="https://t.me/MMofcgroup")
-            ],[
-            InlineKeyboardButton ("DEV🧑‍💻", url="https://t.me/iTOMMYSHELBY"),
-            InlineKeyboardButton ("Repository🤖", url="https://github.com/XTHIGHLIGHT")
-            ]]
-            )
-        )
-    
+    await message.reply_text(
+        text=START_MESSAGE.format(message.from_user.mention)
+    )
    
-        
+
+@Highlight.on_message(filters.command("info"))
+async def info(bot, messege):
+    text = """
+First Name - {message.from_user.first_name}
+Last Name - {message.from_user.last_name}
+UserName - {message.from_user.username}
+Id - {message.from_user.id}
+Mention - {message.from_user.mention}"""
+
+    await message.reply_text(text=text)
         
         
 @Highlight.on_message(filters.command("help")) 
