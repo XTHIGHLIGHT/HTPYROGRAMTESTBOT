@@ -27,7 +27,7 @@ async def start_message(bot, message):
    
 
 @Highlight.on_message(filters.command("info"))
-async def info(bot, messege):
+async def info_message(bot, messege):
     text = f"""
 First Name - {message.from_user.first_name}
 Last Name - {message.from_user.last_name}
