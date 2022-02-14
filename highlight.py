@@ -9,8 +9,7 @@ Highlight=Client(
 )
 
 @Highlight.on_message(filters.command("start")) 
-async def start_message(bot, message):
-Text = """
+async def start_message(bot, message):Text = """
 ​╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪ 
  ​║╭━━━━━━━━━━━━━━━➣  
  ​║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/HTTESTPYRO_BOT"> PYROBOT</a> 
